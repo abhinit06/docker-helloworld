@@ -18,9 +18,6 @@ RUN apt-get update
 # Install necessary tools
 RUN apt-get install -y nginx
 
-# Remove the default Nginx configuration file
-RUN rm -v /etc/nginx/nginx.conf
-
 # Add a sample index file
 ADD index.html /www/data/
 
