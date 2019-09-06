@@ -12,6 +12,3 @@ MAINTAINER Abhishek Kumar
 
 # Add a sample index file
 COPY index.html /usr/share/nginx/html/index.html
-
-# Expose ports
-EXPOSE 8080
