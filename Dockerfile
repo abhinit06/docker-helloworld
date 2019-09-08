@@ -1,5 +1,5 @@
 ############################################################
-# Dockerfile to build Nginx Installed Containers
+# Dockerfile to build Apache Containers
 # Based on Nginx:Alpine
 ############################################################
 
