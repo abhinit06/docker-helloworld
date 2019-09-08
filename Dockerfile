@@ -5,10 +5,10 @@
 
 
 # Set the base image to Ubuntu LTS
-FROM nginx:alpine
+FROM httpd:2.4
 
 # File Author / Maintainer
 MAINTAINER Abhishek Kumar
 
 # Add a sample index file
-COPY index.html /usr/share/nginx/html/index.html
+COPY ./index.html /usr/local/apache2/htdocs/
